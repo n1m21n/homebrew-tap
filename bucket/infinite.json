@@ -1,0 +1,25 @@
+{
+    "version": "0.6.6",
+    "description": "Real-time modular audiovisual workstation for visuals, music and code",
+    "homepage": "https://infinitedevices.org/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/n1m21n/Infinite/releases/download/v0.6.6/Infinite-windows-x64.zip",
+            "hash": "f909f98c91d180d0b8bbcdf64d9cd0a646666d958281d86e943d6ea858b4c3f2"
+        },
+        "arm64": {
+            "url": "https://github.com/n1m21n/Infinite/releases/download/v0.6.6/Infinite-windows-ARM64.zip",
+            "hash": "d6ac71a24d8d408a63b2aaf232797c40e67cbb6597aca6f5364434a6d40e9b49"
+        }
+    },
+    "bin": [["Infinite\\Infinite.exe", "infinite"]],
+    "shortcuts": [["Infinite\\Infinite.exe", "Infinite"]],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": { "url": "https://github.com/n1m21n/Infinite/releases/download/v$version/Infinite-windows-x64.zip" },
+            "arm64": { "url": "https://github.com/n1m21n/Infinite/releases/download/v$version/Infinite-windows-ARM64.zip" }
+        }
+    }
+}
