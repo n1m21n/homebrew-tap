@@ -1,6 +1,6 @@
 cask "infinite" do
-  version "1.0.0"
-  sha256 "847979ec524d2427edee2424e34ef4bdfd7b99142b4002f89ea27e49b1c037d7"
+  version "2.0.0"
+  sha256 "8c1dad034392a96adad9dc41535aa1eb0914f7765f7c601897597b7cc6cfc6a8"
 
   url "https://github.com/n1m21n/Infinite/releases/download/v#{version}/Infinite.dmg",
       verified: "github.com/n1m21n/Infinite/"
